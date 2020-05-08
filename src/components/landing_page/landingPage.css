@@ -1,0 +1,248 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+#jmb2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.core-strengths {
+    text-align: center;
+}
+
+.operation, .earth {
+    background-color: dodgerblue;
+}
+
+.operation {
+    margin: 0;
+}
+
+.healthy {
+    background-color: white;
+}
+
+#jmb1 {
+    position: relative;
+    color: black;
+    height: 52rem;
+    padding: 10rem 2rem;
+    background: transparent;
+    background-size: cover;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tick {
+    color: blue;
+}
+
+.rounded {
+    width: 60%;
+}
+
+
+.area-of-expertise-col2 .row {
+    padding: 15px;
+
+}
+
+.tick {
+    width: 40px;
+    height: 40px;
+}
+
+.banner-main-text {
+    font-family: 'Chewy', cursive;
+    letter-spacing: normal;
+    font-size: 2.7rem;
+}
+
+@media only screen and (min-width: 700px) {
+
+    .form {
+        padding-left: 288px;
+    }
+
+
+    .general-heading {
+        font-family: 'Anton', sans-serif;
+        letter-spacing: inherit;
+
+    }
+
+    .realtime-analytics-col {
+        position: relative;
+        top: 70px;
+    }
+
+    .banner-message {
+        padding-left: 13em;
+
+    }
+
+    .health-col {
+        top: 80px;
+    }
+
+
+    .operation-col {
+        position: relative;
+        top: 70px;
+    }
+
+    .earth-friendly-col {
+        position: relative;
+        top: 106px;
+    }
+
+    .area-of-expertise-col {
+        position: relative;
+        padding-left: 274px;
+        padding-right: 59px;
+    }
+
+    .area-of-expertise-col2 {
+        position: relative;
+        left: 80px;
+        top: 19px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .grid-item {
+        left: 15px;
+
+    }
+
+    .grid-container-content {
+        display: grid;
+        grid-template-columns: 10% auto;
+        padding: 20px;
+    }
+
+    .grid-content-text {
+        margin-top: 20px;
+    }
+
+    .tick {
+        margin: 10px;
+    }
+
+    .core-strengths {
+        height: 0;
+        position: relative;
+        top: 20px;
+    }
+
+}
+
+.realtime {
+    background-color: white;
+    margin: 0;
+}
+
+
+.area {
+    background-color: white;
+}
+
+.expertise-heading {
+    margin-top: 120px;
+}
+
+.particles > .canvas {
+    width: 69%;
+}
+
+.particles-landing-page {
+    background-color: #ff810a;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    width: 100%;
+    height: 150%;
+
+
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.shop-button{
+    margin-left: 220px;
+    text-align: -webkit-center;
+}
+
+.banner-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.general-heading {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: inherit;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .rounded {
+        width: 306px;
+        text-align: center;
+    }
+
+    .grid-content-text {
+        position: relative;
+        bottom: 31px;
+        padding-left: 60px;
+    }
+
+    #jmb1 {
+        z-index: -1;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .form {
+        padding-left: 22px !important;
+    }
+
+    .particles-landing-page {
+        height: 130%;
+    }
+
+
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+@media only screen and (max-width: 500px) {
+    .particles-landing-page {
+        height: 130%;
+    }
+
+    .form {
+        padding-left: 22px !important;
+    }
+    /*.schedule-button{*/
+    /*    display: none;*/
+    /*}*/
+}
+
+.order-button {
+    margin-left: 1rem;
+}
+
+

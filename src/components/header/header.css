@@ -1,0 +1,67 @@
+.brand-logo {
+    height: 5rem;
+    width: 5.5rem;
+}
+
+.head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.brand-name {
+    font-family: 'Galada', cursive;
+    letter-spacing: normal;
+    font-size: 3.2rem;
+}
+
+.cart-count{
+    position: relative;
+    font: 32px Arial, sans-serif;
+    width: 2em;
+    height: 2em;
+    box-sizing: initial;
+    background: #39ace7;
+    border: 0.1em solid #666;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 2em;
+}
+@media only screen and (min-width: 700px) {
+    .navbar {
+        height: 65px;
+    }
+}
+
+.headroom--unpinned {
+    position: fixed;
+    transform: translateY(-100%);
+}
+
+.headroom--pinned {
+    position: fixed;
+    transform: translateY(0%);
+    background: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-link {
+        background: white 100%;
+        text-align: center;
+    }
+}
+
+.navbar {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.fa {
+    color: black !important;
+}
+
+.nav-link {
+    color: black !important;
+}

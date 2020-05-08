@@ -1,0 +1,61 @@
+.privacy {
+    margin-top: 10px;
+    margin-left: -45px;
+    color: whitesmoke;
+}
+
+.tandc {
+    margin-left: 5%;
+    margin-top: 10px;
+
+}
+
+.faq {
+    margin-left: 5%;
+    margin-top: 10px;
+
+}
+
+
+.footer-body {
+    background-color: lightgray;
+    color: black;
+    margin-bottom: 0;
+
+}
+
+@media only screen and (min-width: 700px) {
+    #private-limited {
+        position: relative;
+        text-align: center;
+    }
+
+    .footer-col1 {
+        margin-right: 68px
+    }
+
+    .footer-col2 {
+        margin-left: 50px;
+    }
+
+    #privacy-link {
+        position: relative;
+        left: 25px;
+    }
+
+    #terms-link {
+        position: relative;
+        top: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    #privacy-link {
+        padding-left: 17px;
+    }
+
+    #terms-link {
+        padding-left: 15px;
+    }
+}
